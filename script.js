@@ -57,12 +57,11 @@ async function checkSponsorBlock() {
         html += `
           <div class="segment">
             <p><strong>Category:</strong> ${seg.category}</p>
-            <p><strong>Action:</strong> ${seg.actionType}</p>
             <p><strong>Start:</strong> ${formatTime(seg.segment[0])}</p>
             <p><strong>End:</strong> ${formatTime(seg.segment[1])}</p>
             <p><strong>Votes:</strong> ${seg.votes}</p>
             <p><strong>Locked:</strong> ${seg.locked === 1 ? 'Yes' : 'No'}</p>
-            <p><strong>Description:</strong> ${seg.description || 'N/A'}</p>
+            <p><strong>Description:</strong> ${seg.description || 'No description.'}</p>
           </div>`;
 
         const startPercent = (seg.segment[0] / videoDuration) * 100;
