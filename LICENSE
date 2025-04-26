@@ -1,21 +1,13 @@
-MIT License
+Giantpreston Non-Commercial License (GNCL-1.0)
 
 Copyright (c) 2025 giantpreston
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software to use, copy, modify, and distribute it for non-commercial purposes only, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- Commercial use, resale, or any form of monetization of this software, with or without modification, is strictly prohibited without express written permission from the author.
+- Any derivative works must credit the original author ("giantpreston") and retain this license.
+- If the software is modified, the modified version must clearly and visibly display the original license and attribution to "giantpreston" on the user-facing frontend. This notice must not be hidden or obscured. Users must be made aware that the project is a fork and that the original author is not responsible for the modifications. This requirement is not to limit your creative freedom, but to protect the integrity of the original work.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+License Version: GNCL-1.0
