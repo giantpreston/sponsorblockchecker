@@ -39,7 +39,7 @@ async function checkSponsorBlock() {
     return;
   }
 
-  const apiURL = `https://corsproxy.io/?https://sponsor.ajay.app/api/skipSegments?videoID=${videoID}&categories=["sponsor","selfpromo","intro","outro","interaction"]`;
+  const apiURL = `https://sponsor.ajay.app/api/skipSegments?videoID=${videoID}&categories=["sponsor","selfpromo","intro","outro","interaction"]`;
 
   try {
     const res = await fetch(apiURL);
