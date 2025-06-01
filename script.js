@@ -32,9 +32,12 @@ async function checkSponsorBlock() {
   segments = [];
 
   if (!videoID) {
-    resultDiv.innerHTML = '<p>Invalid YouTube URL.</p>';
-    return;
-  }
+  resultDiv.innerHTML = `
+    <p>Invalid YouTube URL.<br>
+    Example: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><code>https://www.youtube.com/watch?v=dQw4w9WgXcQ</code></a></p>`;
+  return;
+}
+
 
   const skipURL = `https://sponsor.ajay.app/api/skipSegments?videoID=${videoID}&categories=["sponsor","selfpromo","intro","outro","interaction"]`;
   const labelURL = `https://sponsor.ajay.app/api/videoLabels?videoID=${videoID}`;
